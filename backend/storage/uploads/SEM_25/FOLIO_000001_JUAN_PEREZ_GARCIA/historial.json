@@ -1,0 +1,98 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Eliezer Chipuli",
+    "action_source": "sistema",
+    "notes": "Pedido capturado",
+    "timestamp": "2026-06-18T21:25:39.135907"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Eliezer Chipuli",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:25:39.136317"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "EN_REVISION",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Sistemas inició revisión",
+    "timestamp": "2026-06-18T21:25:39.136860"
+  },
+  {
+    "old_status": "EN_REVISION",
+    "new_status": "APROBADO",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Aprobado por Sistemas",
+    "timestamp": "2026-06-18T21:25:46.583274"
+  },
+  {
+    "old_status": "APROBADO",
+    "new_status": "AUTORIZACION_GENERADA",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "autorizacion.xlsx generada",
+    "timestamp": "2026-06-18T21:25:48.312399"
+  },
+  {
+    "old_status": "AUTORIZACION_GENERADA",
+    "new_status": "SINDICATO_GENERADO",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "sindicato.xlsx generada",
+    "timestamp": "2026-06-18T21:25:48.312605"
+  },
+  {
+    "old_status": "SINDICATO_GENERADO",
+    "new_status": "ENVIADO_A_COMPULSA",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Enviado a compulsa",
+    "timestamp": "2026-06-18T21:25:48.312782"
+  },
+  {
+    "old_status": "ENVIADO_A_COMPULSA",
+    "new_status": "COMPULSADO",
+    "action_user": "Recepción",
+    "action_source": "sistema",
+    "notes": "OK",
+    "timestamp": "2026-06-18T21:25:48.394925"
+  },
+  {
+    "old_status": "COMPULSADO",
+    "new_status": "EN_COMPRAS",
+    "action_user": "Recepción",
+    "action_source": "sistema",
+    "notes": "Enviado a Compras",
+    "timestamp": "2026-06-18T21:25:48.395230"
+  },
+  {
+    "old_status": "EN_COMPRAS",
+    "new_status": "COMPRADO",
+    "action_user": "Compras",
+    "action_source": "sistema",
+    "notes": "Compra realizada — Elizondo",
+    "timestamp": "2026-06-18T21:25:48.461524"
+  },
+  {
+    "old_status": "COMPRADO",
+    "new_status": "NOTIFICADO_VENDEDOR",
+    "action_user": "sistema",
+    "action_source": "sistema",
+    "notes": "✅ Compra realizada\n\nFolio:\n000001\n\nCliente:\nJuan Perez Garcia\n\nProveedor:\nElizondo\n\nPedido:\nELZ-999\n\nEstado:\nCOMPRADO",
+    "timestamp": "2026-06-18T21:25:48.461837"
+  },
+  {
+    "old_status": "NOTIFICADO_VENDEDOR",
+    "new_status": "FINALIZADO",
+    "action_user": "sistema",
+    "action_source": "sistema",
+    "notes": "Proceso finalizado",
+    "timestamp": "2026-06-18T21:25:48.465466"
+  }
+]

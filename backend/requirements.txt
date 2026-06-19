@@ -6,3 +6,6 @@ pydantic-settings
 python-dotenv
 alembic
 openpyxl
+pillow
+python-multipart
+httpx

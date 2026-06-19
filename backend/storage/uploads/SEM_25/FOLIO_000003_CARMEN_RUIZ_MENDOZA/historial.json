@@ -1,0 +1,66 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Gerardo Santana",
+    "action_source": "sistema",
+    "notes": "Pedido capturado",
+    "timestamp": "2026-06-18T21:34:52.192265"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Gerardo Santana",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:34:52.193335"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Demo Seed",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:34:52.194427"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "EN_REVISION",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Sistemas inició revisión",
+    "timestamp": "2026-06-18T21:34:52.196327"
+  },
+  {
+    "old_status": "EN_REVISION",
+    "new_status": "APROBADO",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Aprobado por Sistemas",
+    "timestamp": "2026-06-18T21:34:52.197512"
+  },
+  {
+    "old_status": "APROBADO",
+    "new_status": "AUTORIZACION_GENERADA",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "autorizacion.xlsx generada",
+    "timestamp": "2026-06-18T21:34:54.272504"
+  },
+  {
+    "old_status": "AUTORIZACION_GENERADA",
+    "new_status": "SINDICATO_GENERADO",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "sindicato.xlsx generada",
+    "timestamp": "2026-06-18T21:34:54.272780"
+  },
+  {
+    "old_status": "SINDICATO_GENERADO",
+    "new_status": "ENVIADO_A_COMPULSA",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Enviado a compulsa",
+    "timestamp": "2026-06-18T21:34:54.273075"
+  }
+]

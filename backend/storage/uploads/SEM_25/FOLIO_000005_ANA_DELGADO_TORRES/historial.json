@@ -1,0 +1,106 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Sergio Vázquez",
+    "action_source": "sistema",
+    "notes": "Pedido capturado",
+    "timestamp": "2026-06-18T21:34:56.093076"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Sergio Vázquez",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:34:56.093852"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Demo Seed",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:34:56.094739"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "EN_REVISION",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Sistemas inició revisión",
+    "timestamp": "2026-06-18T21:34:56.096276"
+  },
+  {
+    "old_status": "EN_REVISION",
+    "new_status": "APROBADO",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Aprobado por Sistemas",
+    "timestamp": "2026-06-18T21:34:56.097097"
+  },
+  {
+    "old_status": "APROBADO",
+    "new_status": "AUTORIZACION_GENERADA",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "autorizacion.xlsx generada",
+    "timestamp": "2026-06-18T21:34:57.852768"
+  },
+  {
+    "old_status": "AUTORIZACION_GENERADA",
+    "new_status": "SINDICATO_GENERADO",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "sindicato.xlsx generada",
+    "timestamp": "2026-06-18T21:34:57.853073"
+  },
+  {
+    "old_status": "SINDICATO_GENERADO",
+    "new_status": "ENVIADO_A_COMPULSA",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Enviado a compulsa",
+    "timestamp": "2026-06-18T21:34:57.853271"
+  },
+  {
+    "old_status": "ENVIADO_A_COMPULSA",
+    "new_status": "COMPULSADO",
+    "action_user": "Recepción Demo",
+    "action_source": "sistema",
+    "notes": "Compulsa demo OK",
+    "timestamp": "2026-06-18T21:34:57.854551"
+  },
+  {
+    "old_status": "COMPULSADO",
+    "new_status": "EN_COMPRAS",
+    "action_user": "Recepción Demo",
+    "action_source": "sistema",
+    "notes": "Enviado a Compras",
+    "timestamp": "2026-06-18T21:34:57.854760"
+  },
+  {
+    "old_status": "EN_COMPRAS",
+    "new_status": "COMPRADO",
+    "action_user": "Compras Demo",
+    "action_source": "sistema",
+    "notes": "Compra realizada — Elizondo",
+    "timestamp": "2026-06-18T21:34:57.855751"
+  },
+  {
+    "old_status": "COMPRADO",
+    "new_status": "NOTIFICADO_VENDEDOR",
+    "action_user": "sistema",
+    "action_source": "sistema",
+    "notes": "✅ <b>Compra realizada</b>\n\n<b>Folio:</b>\n000005\n\n<b>Cliente:</b>\nAna Delgado Torres\n\n<b>Proveedor:</b>\nElizondo\n\n<b>Pedido:</b>\nELZ-DEMO-001\n\n<b>Estado:</b>\nCOMPRADO",
+    "timestamp": "2026-06-18T21:34:57.856104"
+  },
+  {
+    "old_status": "NOTIFICADO_VENDEDOR",
+    "new_status": "FINALIZADO",
+    "action_user": "sistema",
+    "action_source": "sistema",
+    "notes": "Proceso finalizado",
+    "timestamp": "2026-06-18T21:34:57.856460"
+  }
+]

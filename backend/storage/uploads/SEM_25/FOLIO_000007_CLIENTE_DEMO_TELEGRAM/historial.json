@@ -1,0 +1,34 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Test Vendedor",
+    "action_source": "telegram",
+    "notes": "Pedido iniciado desde Telegram",
+    "timestamp": "2026-06-18T21:43:17.981170"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documento Orden de descuento registrado",
+    "timestamp": "2026-06-18T21:43:18.028733"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documento Pedido registrado",
+    "timestamp": "2026-06-18T21:43:18.060976"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "telegram",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:43:18.062321"
+  }
+]

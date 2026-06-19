@@ -1,0 +1,1383 @@
+{
+  "counter": 11,
+  "cases": {
+    "1": {
+      "public_id": "PED-000001",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "María González Ruiz",
+      "official_folio": "000001",
+      "estado": "EN_REVISION",
+      "vendedor": "Eliezer Chipuli",
+      "seller_telegram_chat_id": 100001,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000001_MARÍA_GONZÁLEZ_RUIZ",
+      "documentos": [
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000001_MARÍA_GONZÁLEZ_RUIZ/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Eliezer_Chipuli/MARÍA_GONZÁLEZ_RUIZ/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000001_MARÍA_GONZÁLEZ_RUIZ/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Eliezer_Chipuli/MARÍA_GONZÁLEZ_RUIZ/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Eliezer Chipuli",
+          "action_source": "sistema",
+          "notes": "Pedido capturado",
+          "timestamp": "2026-06-18T21:34:52.161303"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Eliezer Chipuli",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:52.161937"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Demo Seed",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:52.162636"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "EN_REVISION",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Sistemas inició revisión",
+          "timestamp": "2026-06-18T21:34:52.163818"
+        }
+      ],
+      "compra": null,
+      "autorizacion": null,
+      "storage_provider": "local",
+      "id": 1,
+      "created_at": "2026-06-19T03:34:52.160871+00:00",
+      "updated_at": "2026-06-19T03:34:52.164585+00:00",
+      "rfc": "GOR850312AB1",
+      "seccion": "21",
+      "comentarios": [
+        "Documentos legibles, pendiente validación de descuento."
+      ],
+      "sharepoint_path": "GAMAN/02_PEDIDOS/SEM_25/Eliezer Chipuli/María González Ruiz",
+      "checklist": [
+        {
+          "tipo": "orden_descuento",
+          "label": "Orden de descuento",
+          "completo": true
+        },
+        {
+          "tipo": "pedido",
+          "label": "Pedido",
+          "completo": true
+        }
+      ]
+    },
+    "2": {
+      "public_id": "PED-000002",
+      "case_type": "pedido",
+      "order_type": "dinero",
+      "cliente": "Roberto Salinas Vega",
+      "official_folio": "000002",
+      "estado": "CORRECCION_SOLICITADA",
+      "vendedor": "Leonardo Arévalo",
+      "seller_telegram_chat_id": 100002,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000002_ROBERTO_SALINAS_VEGA",
+      "documentos": [
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000002_ROBERTO_SALINAS_VEGA/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Leonardo_Arévalo/ROBERTO_SALINAS_VEGA/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000002_ROBERTO_SALINAS_VEGA/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Leonardo_Arévalo/ROBERTO_SALINAS_VEGA/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "caratula_bancaria",
+          "filename": "caratula_banco.jpg",
+          "label": "Carátula banco",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000002_ROBERTO_SALINAS_VEGA/caratula_banco.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Leonardo_Arévalo/ROBERTO_SALINAS_VEGA/02_PEDIDOS/caratula_banco.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Leonardo Arévalo",
+          "action_source": "sistema",
+          "notes": "Pedido capturado",
+          "timestamp": "2026-06-18T21:34:52.178295"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Leonardo Arévalo",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:52.179092"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Demo Seed",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:52.179972"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "EN_REVISION",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Sistemas inició revisión",
+          "timestamp": "2026-06-18T21:34:52.181628"
+        },
+        {
+          "old_status": "EN_REVISION",
+          "new_status": "CORRECCION_SOLICITADA",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Corregir orden de descuento — demo",
+          "timestamp": "2026-06-18T21:34:52.182816"
+        }
+      ],
+      "compra": null,
+      "autorizacion": null,
+      "storage_provider": "local",
+      "id": 2,
+      "created_at": "2026-06-19T03:34:52.177760+00:00",
+      "updated_at": "2026-06-19T03:34:52.183838+00:00",
+      "rfc": "SAV920715CD2",
+      "seccion": "14",
+      "comentarios": [
+        "Falta aclarar monto en orden de descuento."
+      ],
+      "sharepoint_path": "GAMAN/02_PEDIDOS/SEM_25/Leonardo Arévalo/Roberto Salinas Vega",
+      "checklist": [
+        {
+          "tipo": "pedido",
+          "label": "Pedido",
+          "completo": true
+        },
+        {
+          "tipo": "orden_descuento",
+          "label": "Orden de descuento",
+          "completo": true
+        },
+        {
+          "tipo": "caratula_bancaria",
+          "label": "Carátula banco",
+          "completo": true
+        }
+      ]
+    },
+    "3": {
+      "public_id": "PED-000003",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "Carmen Ruiz Mendoza",
+      "official_folio": "000003",
+      "estado": "ENVIADO_A_COMPULSA",
+      "vendedor": "Gerardo Santana",
+      "seller_telegram_chat_id": 100003,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000003_CARMEN_RUIZ_MENDOZA",
+      "documentos": [
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000003_CARMEN_RUIZ_MENDOZA/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Gerardo_Santana/CARMEN_RUIZ_MENDOZA/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000003_CARMEN_RUIZ_MENDOZA/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Gerardo_Santana/CARMEN_RUIZ_MENDOZA/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "autorizacion",
+          "filename": "autorizacion.xlsx",
+          "label": "Autorización",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000003_CARMEN_RUIZ_MENDOZA/autorizacion.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Gerardo_Santana/CARMEN_RUIZ_MENDOZA/03_AUTORIZACIONES/autorizacion.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "sindicato",
+          "filename": "sindicato.xlsx",
+          "label": "Hoja sindicato",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000003_CARMEN_RUIZ_MENDOZA/sindicato.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Gerardo_Santana/CARMEN_RUIZ_MENDOZA/03_AUTORIZACIONES/sindicato.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Gerardo Santana",
+          "action_source": "sistema",
+          "notes": "Pedido capturado",
+          "timestamp": "2026-06-18T21:34:52.192265"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Gerardo Santana",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:52.193335"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Demo Seed",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:52.194427"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "EN_REVISION",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Sistemas inició revisión",
+          "timestamp": "2026-06-18T21:34:52.196327"
+        },
+        {
+          "old_status": "EN_REVISION",
+          "new_status": "APROBADO",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Aprobado por Sistemas",
+          "timestamp": "2026-06-18T21:34:52.197512"
+        },
+        {
+          "old_status": "APROBADO",
+          "new_status": "AUTORIZACION_GENERADA",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "autorizacion.xlsx generada",
+          "timestamp": "2026-06-18T21:34:54.272504"
+        },
+        {
+          "old_status": "AUTORIZACION_GENERADA",
+          "new_status": "SINDICATO_GENERADO",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "sindicato.xlsx generada",
+          "timestamp": "2026-06-18T21:34:54.272780"
+        },
+        {
+          "old_status": "SINDICATO_GENERADO",
+          "new_status": "ENVIADO_A_COMPULSA",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Enviado a compulsa",
+          "timestamp": "2026-06-18T21:34:54.273075"
+        }
+      ],
+      "compra": null,
+      "autorizacion": {
+        "telefono": "8181234567",
+        "fecha": "18/06/2026",
+        "semana": 25,
+        "inicio": "18/06/2026",
+        "plazo": 72,
+        "monto_total": 28500.0,
+        "rfc": "RUM880201EF3",
+        "observaciones": "Demo GAMAN",
+        "productos": [
+          {
+            "descripcion": "Paquete demo",
+            "cantidad": 1,
+            "precio": 28500.0
+          }
+        ],
+        "cliente": "Carmen Ruiz Mendoza",
+        "vendedor": "Gerardo Santana",
+        "folio": "000003"
+      },
+      "storage_provider": "local",
+      "id": 3,
+      "created_at": "2026-06-19T03:34:52.191198+00:00",
+      "updated_at": "2026-06-19T03:34:54.274213+00:00",
+      "rfc": "RUM880201EF3",
+      "seccion": "21",
+      "comentarios": [
+        "Autorización y sindicato generados correctamente."
+      ],
+      "sharepoint_path": "GAMAN/02_PEDIDOS/SEM_25/Gerardo Santana/Carmen Ruiz Mendoza"
+    },
+    "4": {
+      "public_id": "PED-000004",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "Luis Mendoza Herrera",
+      "official_folio": "000004",
+      "estado": "EN_COMPRAS",
+      "vendedor": "Juan Manuel",
+      "seller_telegram_chat_id": 100004,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000004_LUIS_MENDOZA_HERRERA",
+      "documentos": [
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000004_LUIS_MENDOZA_HERRERA/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Juan_Manuel/LUIS_MENDOZA_HERRERA/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000004_LUIS_MENDOZA_HERRERA/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Juan_Manuel/LUIS_MENDOZA_HERRERA/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "autorizacion",
+          "filename": "autorizacion.xlsx",
+          "label": "Autorización",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000004_LUIS_MENDOZA_HERRERA/autorizacion.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Juan_Manuel/LUIS_MENDOZA_HERRERA/03_AUTORIZACIONES/autorizacion.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "sindicato",
+          "filename": "sindicato.xlsx",
+          "label": "Hoja sindicato",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000004_LUIS_MENDOZA_HERRERA/sindicato.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Juan_Manuel/LUIS_MENDOZA_HERRERA/03_AUTORIZACIONES/sindicato.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Juan Manuel",
+          "action_source": "sistema",
+          "notes": "Pedido capturado",
+          "timestamp": "2026-06-18T21:34:54.278813"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Juan Manuel",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:54.279559"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Demo Seed",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:54.280366"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "EN_REVISION",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Sistemas inició revisión",
+          "timestamp": "2026-06-18T21:34:54.282243"
+        },
+        {
+          "old_status": "EN_REVISION",
+          "new_status": "APROBADO",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Aprobado por Sistemas",
+          "timestamp": "2026-06-18T21:34:54.283310"
+        },
+        {
+          "old_status": "APROBADO",
+          "new_status": "AUTORIZACION_GENERADA",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "autorizacion.xlsx generada",
+          "timestamp": "2026-06-18T21:34:56.085629"
+        },
+        {
+          "old_status": "AUTORIZACION_GENERADA",
+          "new_status": "SINDICATO_GENERADO",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "sindicato.xlsx generada",
+          "timestamp": "2026-06-18T21:34:56.085870"
+        },
+        {
+          "old_status": "SINDICATO_GENERADO",
+          "new_status": "ENVIADO_A_COMPULSA",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Enviado a compulsa",
+          "timestamp": "2026-06-18T21:34:56.086092"
+        },
+        {
+          "old_status": "ENVIADO_A_COMPULSA",
+          "new_status": "COMPULSADO",
+          "action_user": "Recepción Demo",
+          "action_source": "sistema",
+          "notes": "Compulsa demo OK",
+          "timestamp": "2026-06-18T21:34:56.086894"
+        },
+        {
+          "old_status": "COMPULSADO",
+          "new_status": "EN_COMPRAS",
+          "action_user": "Recepción Demo",
+          "action_source": "sistema",
+          "notes": "Enviado a Compras",
+          "timestamp": "2026-06-18T21:34:56.087100"
+        }
+      ],
+      "compra": null,
+      "autorizacion": {
+        "telefono": "8181234567",
+        "fecha": "18/06/2026",
+        "semana": 25,
+        "inicio": "18/06/2026",
+        "plazo": 72,
+        "monto_total": 28500.0,
+        "rfc": "MEH950408GH4",
+        "observaciones": "Demo GAMAN",
+        "productos": [
+          {
+            "descripcion": "Paquete demo",
+            "cantidad": 1,
+            "precio": 28500.0
+          }
+        ],
+        "cliente": "Luis Mendoza Herrera",
+        "vendedor": "Juan Manuel",
+        "folio": "000004"
+      },
+      "storage_provider": "local",
+      "id": 4,
+      "created_at": "2026-06-19T03:34:54.278292+00:00",
+      "updated_at": "2026-06-19T03:34:56.088015+00:00",
+      "rfc": "MEH950408GH4",
+      "seccion": "08",
+      "comentarios": [
+        "Compulsa realizada, listo para compra Elizondo."
+      ],
+      "sharepoint_path": "GAMAN/02_PEDIDOS/SEM_25/Juan Manuel/Luis Mendoza Herrera"
+    },
+    "5": {
+      "public_id": "PED-000005",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "Ana Delgado Torres",
+      "official_folio": "000005",
+      "estado": "FINALIZADO",
+      "vendedor": "Sergio Vázquez",
+      "seller_telegram_chat_id": 100005,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000005_ANA_DELGADO_TORRES",
+      "documentos": [
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000005_ANA_DELGADO_TORRES/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Sergio_Vázquez/ANA_DELGADO_TORRES/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000005_ANA_DELGADO_TORRES/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Sergio_Vázquez/ANA_DELGADO_TORRES/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "autorizacion",
+          "filename": "autorizacion.xlsx",
+          "label": "Autorización",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000005_ANA_DELGADO_TORRES/autorizacion.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Sergio_Vázquez/ANA_DELGADO_TORRES/03_AUTORIZACIONES/autorizacion.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "sindicato",
+          "filename": "sindicato.xlsx",
+          "label": "Hoja sindicato",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000005_ANA_DELGADO_TORRES/sindicato.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Sergio_Vázquez/ANA_DELGADO_TORRES/03_AUTORIZACIONES/sindicato.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Sergio Vázquez",
+          "action_source": "sistema",
+          "notes": "Pedido capturado",
+          "timestamp": "2026-06-18T21:34:56.093076"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Sergio Vázquez",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:56.093852"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Demo Seed",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:34:56.094739"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "EN_REVISION",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Sistemas inició revisión",
+          "timestamp": "2026-06-18T21:34:56.096276"
+        },
+        {
+          "old_status": "EN_REVISION",
+          "new_status": "APROBADO",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Aprobado por Sistemas",
+          "timestamp": "2026-06-18T21:34:56.097097"
+        },
+        {
+          "old_status": "APROBADO",
+          "new_status": "AUTORIZACION_GENERADA",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "autorizacion.xlsx generada",
+          "timestamp": "2026-06-18T21:34:57.852768"
+        },
+        {
+          "old_status": "AUTORIZACION_GENERADA",
+          "new_status": "SINDICATO_GENERADO",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "sindicato.xlsx generada",
+          "timestamp": "2026-06-18T21:34:57.853073"
+        },
+        {
+          "old_status": "SINDICATO_GENERADO",
+          "new_status": "ENVIADO_A_COMPULSA",
+          "action_user": "Sistemas Demo",
+          "action_source": "sistema",
+          "notes": "Enviado a compulsa",
+          "timestamp": "2026-06-18T21:34:57.853271"
+        },
+        {
+          "old_status": "ENVIADO_A_COMPULSA",
+          "new_status": "COMPULSADO",
+          "action_user": "Recepción Demo",
+          "action_source": "sistema",
+          "notes": "Compulsa demo OK",
+          "timestamp": "2026-06-18T21:34:57.854551"
+        },
+        {
+          "old_status": "COMPULSADO",
+          "new_status": "EN_COMPRAS",
+          "action_user": "Recepción Demo",
+          "action_source": "sistema",
+          "notes": "Enviado a Compras",
+          "timestamp": "2026-06-18T21:34:57.854760"
+        },
+        {
+          "old_status": "EN_COMPRAS",
+          "new_status": "COMPRADO",
+          "action_user": "Compras Demo",
+          "action_source": "sistema",
+          "notes": "Compra realizada — Elizondo",
+          "timestamp": "2026-06-18T21:34:57.855751"
+        },
+        {
+          "old_status": "COMPRADO",
+          "new_status": "NOTIFICADO_VENDEDOR",
+          "action_user": "sistema",
+          "action_source": "sistema",
+          "notes": "✅ <b>Compra realizada</b>\n\n<b>Folio:</b>\n000005\n\n<b>Cliente:</b>\nAna Delgado Torres\n\n<b>Proveedor:</b>\nElizondo\n\n<b>Pedido:</b>\nELZ-DEMO-001\n\n<b>Estado:</b>\nCOMPRADO",
+          "timestamp": "2026-06-18T21:34:57.856104"
+        },
+        {
+          "old_status": "NOTIFICADO_VENDEDOR",
+          "new_status": "FINALIZADO",
+          "action_user": "sistema",
+          "action_source": "sistema",
+          "notes": "Proceso finalizado",
+          "timestamp": "2026-06-18T21:34:57.856460"
+        }
+      ],
+      "compra": {
+        "proveedor": "Elizondo",
+        "numero_pedido": "ELZ-DEMO-001",
+        "nombre_proveedor": null,
+        "observaciones": "Compra demo presentación",
+        "fecha": "2026-06-18T21:34:57.855741"
+      },
+      "autorizacion": {
+        "telefono": "8181234567",
+        "fecha": "18/06/2026",
+        "semana": 25,
+        "inicio": "18/06/2026",
+        "plazo": 72,
+        "monto_total": 28500.0,
+        "rfc": "DET870622IJ5",
+        "observaciones": "Demo GAMAN",
+        "productos": [
+          {
+            "descripcion": "Paquete demo",
+            "cantidad": 1,
+            "precio": 28500.0
+          }
+        ],
+        "cliente": "Ana Delgado Torres",
+        "vendedor": "Sergio Vázquez",
+        "folio": "000005"
+      },
+      "storage_provider": "local",
+      "id": 5,
+      "created_at": "2026-06-19T03:34:56.092346+00:00",
+      "updated_at": "2026-06-19T03:34:57.857501+00:00",
+      "rfc": "DET870622IJ5",
+      "seccion": "14",
+      "comentarios": [
+        "Compra Elizondo registrada, vendedor notificado."
+      ],
+      "sharepoint_path": "GAMAN/02_PEDIDOS/SEM_25/Sergio Vázquez/Ana Delgado Torres",
+      "notificaciones": [
+        {
+          "canal": "telegram",
+          "status": "mock",
+          "chat_id": 100005,
+          "mensaje": "✅ <b>Compra realizada</b>\n\n<b>Folio:</b>\n000005\n\n<b>Cliente:</b>\nAna Delgado Torres\n\n<b>Proveedor:</b>\nElizondo\n\n<b>Pedido:</b>\nELZ-DEMO-001\n\n<b>Estado:</b>\nCOMPRADO",
+          "timestamp": "2026-06-18T21:34:57.856093",
+          "error": null
+        }
+      ]
+    },
+    "6": {
+      "public_id": "PED-000006",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "Test Sistemas",
+      "official_folio": "000006",
+      "estado": "PENDIENTE_REVISION",
+      "vendedor": "Eliezer Chipuli",
+      "seller_telegram_chat_id": null,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000006_TEST_SISTEMAS",
+      "documentos": [
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000006_TEST_SISTEMAS/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Eliezer_Chipuli/TEST_SISTEMAS/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000006_TEST_SISTEMAS/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Eliezer_Chipuli/TEST_SISTEMAS/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Eliezer Chipuli",
+          "action_source": "sistema",
+          "notes": "Pedido capturado",
+          "timestamp": "2026-06-18T21:39:34.256511"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "Eliezer Chipuli",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:39:34.260257"
+        }
+      ],
+      "compra": null,
+      "autorizacion": null,
+      "storage_provider": "local",
+      "id": 6,
+      "created_at": "2026-06-19T03:39:34.255395+00:00",
+      "updated_at": "2026-06-19T03:39:34.260438+00:00",
+      "checklist": [
+        {
+          "tipo": "orden_descuento",
+          "label": "Orden de descuento",
+          "completo": true
+        },
+        {
+          "tipo": "pedido",
+          "label": "Pedido",
+          "completo": true
+        }
+      ]
+    },
+    "7": {
+      "public_id": "PED-000007",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "Cliente Demo Telegram",
+      "official_folio": "000007",
+      "estado": "PENDIENTE_REVISION",
+      "vendedor": "Test Vendedor",
+      "seller_telegram_chat_id": 999888777,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000007_CLIENTE_DEMO_TELEGRAM",
+      "documentos": [
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000007_CLIENTE_DEMO_TELEGRAM/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Test_Vendedor/CLIENTE_DEMO_TELEGRAM/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000007_CLIENTE_DEMO_TELEGRAM/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Test_Vendedor/CLIENTE_DEMO_TELEGRAM/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Test Vendedor",
+          "action_source": "telegram",
+          "notes": "Pedido iniciado desde Telegram",
+          "timestamp": "2026-06-18T21:43:17.981170"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documento Orden de descuento registrado",
+          "timestamp": "2026-06-18T21:43:18.028733"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documento Pedido registrado",
+          "timestamp": "2026-06-18T21:43:18.060976"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "telegram",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:43:18.062321"
+        }
+      ],
+      "compra": null,
+      "autorizacion": null,
+      "storage_provider": "local",
+      "id": 7,
+      "created_at": "2026-06-19T03:43:17.980053+00:00",
+      "updated_at": "2026-06-19T03:43:18.062502+00:00",
+      "checklist": [
+        {
+          "tipo": "orden_descuento",
+          "label": "Orden de descuento",
+          "completo": true
+        },
+        {
+          "tipo": "pedido",
+          "label": "Pedido",
+          "completo": true
+        }
+      ]
+    },
+    "8": {
+      "public_id": "PED-000008",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "prueba 1",
+      "official_folio": "000008",
+      "estado": "CAPTURADO",
+      "vendedor": "Pedidos Muebles Gaman",
+      "seller_telegram_chat_id": 8640021739,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000008_PRUEBA_1",
+      "documentos": [],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Pedidos Muebles Gaman",
+          "action_source": "telegram",
+          "notes": "Pedido iniciado desde Telegram",
+          "timestamp": "2026-06-18T21:53:49.901089"
+        }
+      ],
+      "compra": null,
+      "autorizacion": null,
+      "storage_provider": "local",
+      "id": 8,
+      "created_at": "2026-06-19T03:53:49.899865+00:00",
+      "updated_at": "2026-06-19T03:53:49.901222+00:00"
+    },
+    "9": {
+      "public_id": "PED-000009",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "Prueba",
+      "official_folio": "000009",
+      "estado": "PENDIENTE_REVISION",
+      "vendedor": "Erick",
+      "seller_telegram_chat_id": 7259816489,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000009_PRUEBA",
+      "documentos": [
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000009_PRUEBA/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Erick/PRUEBA/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000009_PRUEBA/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Erick/PRUEBA/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Erick",
+          "action_source": "telegram",
+          "notes": "Pedido iniciado desde Telegram",
+          "timestamp": "2026-06-18T21:54:48.970653"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documento Orden de descuento registrado",
+          "timestamp": "2026-06-18T21:58:31.674242"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documento Pedido registrado",
+          "timestamp": "2026-06-18T21:59:21.446555"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "telegram",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T21:59:21.448238"
+        }
+      ],
+      "compra": null,
+      "autorizacion": null,
+      "storage_provider": "local",
+      "id": 9,
+      "created_at": "2026-06-19T03:54:48.969518+00:00",
+      "updated_at": "2026-06-19T03:59:21.450423+00:00",
+      "checklist": [
+        {
+          "tipo": "orden_descuento",
+          "label": "Orden de descuento",
+          "completo": true
+        },
+        {
+          "tipo": "pedido",
+          "label": "Pedido",
+          "completo": true
+        }
+      ]
+    },
+    "10": {
+      "public_id": "PED-000010",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "Test E2E Mueble",
+      "official_folio": "000010",
+      "estado": "ENVIADO_A_COMPULSA",
+      "vendedor": "E2E Bot",
+      "seller_telegram_chat_id": 999001,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000010_TEST_E2E_MUEBLE",
+      "documentos": [
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000010_TEST_E2E_MUEBLE/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/E2E_Bot/TEST_E2E_MUEBLE/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000010_TEST_E2E_MUEBLE/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/E2E_Bot/TEST_E2E_MUEBLE/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "autorizacion",
+          "filename": "autorizacion.xlsx",
+          "label": "Autorización",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000010_TEST_E2E_MUEBLE/autorizacion.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/E2E_Bot/TEST_E2E_MUEBLE/03_AUTORIZACIONES/autorizacion.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "sindicato",
+          "filename": "sindicato.xlsx",
+          "label": "Hoja sindicato",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000010_TEST_E2E_MUEBLE/sindicato.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/E2E_Bot/TEST_E2E_MUEBLE/03_AUTORIZACIONES/sindicato.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "E2E Bot",
+          "action_source": "telegram",
+          "notes": "Pedido iniciado desde Telegram",
+          "timestamp": "2026-06-18T22:01:55.176709"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documento Orden de descuento registrado",
+          "timestamp": "2026-06-18T22:01:55.200591"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documento Pedido registrado",
+          "timestamp": "2026-06-18T22:01:55.205375"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "telegram",
+          "action_source": "sistema",
+          "notes": "Documentos completos — enviado a Sistemas",
+          "timestamp": "2026-06-18T22:01:55.206905"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "EN_REVISION",
+          "action_user": "Sistemas E2E",
+          "action_source": "sistema",
+          "notes": "Sistemas inició revisión",
+          "timestamp": "2026-06-18T22:01:55.220238"
+        },
+        {
+          "old_status": "EN_REVISION",
+          "new_status": "APROBADO",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "Aprobado por Sistemas",
+          "timestamp": "2026-06-18T22:01:55.224769"
+        },
+        {
+          "old_status": "APROBADO",
+          "new_status": "AUTORIZACION_GENERADA",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "autorizacion.xlsx generada",
+          "timestamp": "2026-06-18T22:01:57.653878"
+        },
+        {
+          "old_status": "AUTORIZACION_GENERADA",
+          "new_status": "SINDICATO_GENERADO",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "sindicato.xlsx generada",
+          "timestamp": "2026-06-18T22:01:57.654222"
+        },
+        {
+          "old_status": "SINDICATO_GENERADO",
+          "new_status": "ENVIADO_A_COMPULSA",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "Enviado a compulsa",
+          "timestamp": "2026-06-18T22:01:57.654493"
+        }
+      ],
+      "compra": null,
+      "autorizacion": {
+        "telefono": "8140000000",
+        "fecha": "18/06/2026",
+        "semana": 25,
+        "inicio": "06-2026",
+        "plazo": 72,
+        "monto_total": 50000.0,
+        "observaciones": "",
+        "productos": [
+          {
+            "producto": "MESA",
+            "trans_credito": null,
+            "credito": null,
+            "precio_venta": 50000.0,
+            "descuento": null,
+            "tipo_vta": "Nueva"
+          }
+        ],
+        "cliente": "Test E2E Mueble",
+        "vendedor": "E2E Bot",
+        "folio": "000010"
+      },
+      "storage_provider": "local",
+      "id": 10,
+      "created_at": "2026-06-19T04:01:55.175331+00:00",
+      "updated_at": "2026-06-19T04:01:57.654770+00:00"
+    },
+    "11": {
+      "public_id": "PED-000011",
+      "case_type": "pedido",
+      "order_type": "mueble",
+      "cliente": "Historial Test",
+      "official_folio": "000011",
+      "estado": "FINALIZADO",
+      "vendedor": "Bot",
+      "seller_telegram_chat_id": 999002,
+      "semana": "SEM_25",
+      "folder_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000011_HISTORIAL_TEST",
+      "documentos": [
+        {
+          "tipo": "orden_descuento",
+          "filename": "orden_descuento.jpg",
+          "label": "Orden de descuento",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000011_HISTORIAL_TEST/orden_descuento.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Bot/HISTORIAL_TEST/02_PEDIDOS/orden_descuento.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "pedido",
+          "filename": "pedido.jpg",
+          "label": "Pedido",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000011_HISTORIAL_TEST/pedido.jpg",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Bot/HISTORIAL_TEST/02_PEDIDOS/pedido.jpg",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "autorizacion",
+          "filename": "autorizacion.xlsx",
+          "label": "Autorización",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000011_HISTORIAL_TEST/autorizacion.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Bot/HISTORIAL_TEST/03_AUTORIZACIONES/autorizacion.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        },
+        {
+          "tipo": "sindicato",
+          "filename": "sindicato.xlsx",
+          "label": "Hoja sindicato",
+          "local_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/uploads/SEM_25/FOLIO_000011_HISTORIAL_TEST/sindicato.xlsx",
+          "mirror_path": "/home/ericklopeh/GAMAN_WORKSPACE/sistema-gaman/backend/storage/sharepoint_mirror/SEM_25/Bot/HISTORIAL_TEST/03_AUTORIZACIONES/sindicato.xlsx",
+          "sharepoint_url": null,
+          "upload_status": "UPLOADED",
+          "provider": "local"
+        }
+      ],
+      "historial": [
+        {
+          "old_status": null,
+          "new_status": "CAPTURADO",
+          "action_user": "Bot",
+          "action_source": "telegram",
+          "notes": "Pedido creado desde Telegram",
+          "timestamp": "2026-06-18T22:02:32.899303"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documento Orden de descuento recibido",
+          "timestamp": "2026-06-18T22:02:32.923009"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documento Pedido recibido",
+          "timestamp": "2026-06-18T22:02:32.929048"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "CAPTURADO",
+          "action_user": "telegram",
+          "action_source": "telegram",
+          "notes": "Documentos completos",
+          "timestamp": "2026-06-18T22:02:32.930845"
+        },
+        {
+          "old_status": "CAPTURADO",
+          "new_status": "PENDIENTE_REVISION",
+          "action_user": "telegram",
+          "action_source": "sistema",
+          "notes": "Pendiente de revisión",
+          "timestamp": "2026-06-18T22:02:32.933861"
+        },
+        {
+          "old_status": "PENDIENTE_REVISION",
+          "new_status": "EN_REVISION",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "Sistemas inició revisión",
+          "timestamp": "2026-06-18T22:02:50.392890"
+        },
+        {
+          "old_status": "EN_REVISION",
+          "new_status": "APROBADO",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "Aprobado por Sistemas",
+          "timestamp": "2026-06-18T22:02:50.399480"
+        },
+        {
+          "old_status": "APROBADO",
+          "new_status": "AUTORIZACION_GENERADA",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "autorizacion.xlsx generada",
+          "timestamp": "2026-06-18T22:02:54.590884"
+        },
+        {
+          "old_status": "AUTORIZACION_GENERADA",
+          "new_status": "SINDICATO_GENERADO",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "sindicato.xlsx generada",
+          "timestamp": "2026-06-18T22:02:54.591126"
+        },
+        {
+          "old_status": "SINDICATO_GENERADO",
+          "new_status": "ENVIADO_A_COMPULSA",
+          "action_user": "Sistemas",
+          "action_source": "sistema",
+          "notes": "Enviado a compulsa",
+          "timestamp": "2026-06-18T22:02:54.591314"
+        },
+        {
+          "old_status": "ENVIADO_A_COMPULSA",
+          "new_status": "COMPULSADO",
+          "action_user": "Recepción",
+          "action_source": "sistema",
+          "notes": "OK",
+          "timestamp": "2026-06-18T22:02:54.598133"
+        },
+        {
+          "old_status": "COMPULSADO",
+          "new_status": "EN_COMPRAS",
+          "action_user": "Recepción",
+          "action_source": "sistema",
+          "notes": "Enviado a Compras",
+          "timestamp": "2026-06-18T22:02:54.598438"
+        },
+        {
+          "old_status": "EN_COMPRAS",
+          "new_status": "COMPRADO",
+          "action_user": "Compras",
+          "action_source": "sistema",
+          "notes": "Compra realizada — Elizondo",
+          "timestamp": "2026-06-18T22:02:54.604959"
+        },
+        {
+          "old_status": "COMPRADO",
+          "new_status": "NOTIFICADO_VENDEDOR",
+          "action_user": "sistema",
+          "action_source": "sistema",
+          "notes": "✅ <b>Compra realizada</b>\n\n<b>Folio:</b>\n000011\n\n<b>Cliente:</b>\nHistorial Test\n\n<b>Proveedor:</b>\nElizondo\n\n<b>Pedido:</b>\nELZ-TEST-011\n\n<b>Estado:</b>\nCOMPRADO",
+          "timestamp": "2026-06-18T22:02:55.482610"
+        },
+        {
+          "old_status": "NOTIFICADO_VENDEDOR",
+          "new_status": "FINALIZADO",
+          "action_user": "sistema",
+          "action_source": "sistema",
+          "notes": "Proceso finalizado",
+          "timestamp": "2026-06-18T22:02:55.483580"
+        }
+      ],
+      "compra": {
+        "proveedor": "Elizondo",
+        "numero_pedido": "ELZ-TEST-011",
+        "nombre_proveedor": null,
+        "observaciones": "",
+        "fecha": "2026-06-18T22:02:54.604930"
+      },
+      "autorizacion": {
+        "telefono": "8140000000",
+        "fecha": "18/06/2026",
+        "semana": 25,
+        "inicio": "06-2026",
+        "plazo": 72,
+        "monto_total": 50000.0,
+        "observaciones": "",
+        "productos": [
+          {
+            "producto": "MESA",
+            "trans_credito": null,
+            "credito": null,
+            "precio_venta": 50000.0,
+            "descuento": null,
+            "tipo_vta": "Nueva"
+          }
+        ],
+        "cliente": "Historial Test",
+        "vendedor": "Bot",
+        "folio": "000011"
+      },
+      "storage_provider": "local",
+      "id": 11,
+      "created_at": "2026-06-19T04:02:32.896138+00:00",
+      "updated_at": "2026-06-19T04:02:55.487505+00:00",
+      "notificaciones": [
+        {
+          "canal": "telegram",
+          "status": "failed",
+          "chat_id": 999002,
+          "mensaje": "✅ <b>Compra realizada</b>\n\n<b>Folio:</b>\n000011\n\n<b>Cliente:</b>\nHistorial Test\n\n<b>Proveedor:</b>\nElizondo\n\n<b>Pedido:</b>\nELZ-TEST-011\n\n<b>Estado:</b>\nCOMPRADO",
+          "timestamp": "2026-06-18T22:02:55.482542",
+          "error": "Client error '400 Bad Request' for url 'https://api.telegram.org/bot8682526788:AAGwQ6CtJ3kGP3HsjauROHc9Wq_1GC9CkMY/sendMessage'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+        }
+      ]
+    }
+  },
+  "updated_at": "2026-06-19T04:02:55.487549+00:00"
+}

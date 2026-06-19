@@ -1,0 +1,18 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Eliezer Chipuli",
+    "action_source": "sistema",
+    "notes": "Pedido capturado",
+    "timestamp": "2026-06-18T21:39:34.256511"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Eliezer Chipuli",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:39:34.260257"
+  }
+]

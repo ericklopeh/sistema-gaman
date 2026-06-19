@@ -1,0 +1,10 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Pedidos Muebles Gaman",
+    "action_source": "telegram",
+    "notes": "Pedido iniciado desde Telegram",
+    "timestamp": "2026-06-18T21:53:49.901089"
+  }
+]

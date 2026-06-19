@@ -1,0 +1,74 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "E2E Bot",
+    "action_source": "telegram",
+    "notes": "Pedido iniciado desde Telegram",
+    "timestamp": "2026-06-18T22:01:55.176709"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documento Orden de descuento registrado",
+    "timestamp": "2026-06-18T22:01:55.200591"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documento Pedido registrado",
+    "timestamp": "2026-06-18T22:01:55.205375"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "telegram",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T22:01:55.206905"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "EN_REVISION",
+    "action_user": "Sistemas E2E",
+    "action_source": "sistema",
+    "notes": "Sistemas inició revisión",
+    "timestamp": "2026-06-18T22:01:55.220238"
+  },
+  {
+    "old_status": "EN_REVISION",
+    "new_status": "APROBADO",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Aprobado por Sistemas",
+    "timestamp": "2026-06-18T22:01:55.224769"
+  },
+  {
+    "old_status": "APROBADO",
+    "new_status": "AUTORIZACION_GENERADA",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "autorizacion.xlsx generada",
+    "timestamp": "2026-06-18T22:01:57.653878"
+  },
+  {
+    "old_status": "AUTORIZACION_GENERADA",
+    "new_status": "SINDICATO_GENERADO",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "sindicato.xlsx generada",
+    "timestamp": "2026-06-18T22:01:57.654222"
+  },
+  {
+    "old_status": "SINDICATO_GENERADO",
+    "new_status": "ENVIADO_A_COMPULSA",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Enviado a compulsa",
+    "timestamp": "2026-06-18T22:01:57.654493"
+  }
+]

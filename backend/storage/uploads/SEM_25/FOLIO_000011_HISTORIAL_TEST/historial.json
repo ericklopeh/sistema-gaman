@@ -1,0 +1,122 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Bot",
+    "action_source": "telegram",
+    "notes": "Pedido creado desde Telegram",
+    "timestamp": "2026-06-18T22:02:32.899303"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documento Orden de descuento recibido",
+    "timestamp": "2026-06-18T22:02:32.923009"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documento Pedido recibido",
+    "timestamp": "2026-06-18T22:02:32.929048"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documentos completos",
+    "timestamp": "2026-06-18T22:02:32.930845"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "telegram",
+    "action_source": "sistema",
+    "notes": "Pendiente de revisión",
+    "timestamp": "2026-06-18T22:02:32.933861"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "EN_REVISION",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Sistemas inició revisión",
+    "timestamp": "2026-06-18T22:02:50.392890"
+  },
+  {
+    "old_status": "EN_REVISION",
+    "new_status": "APROBADO",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Aprobado por Sistemas",
+    "timestamp": "2026-06-18T22:02:50.399480"
+  },
+  {
+    "old_status": "APROBADO",
+    "new_status": "AUTORIZACION_GENERADA",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "autorizacion.xlsx generada",
+    "timestamp": "2026-06-18T22:02:54.590884"
+  },
+  {
+    "old_status": "AUTORIZACION_GENERADA",
+    "new_status": "SINDICATO_GENERADO",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "sindicato.xlsx generada",
+    "timestamp": "2026-06-18T22:02:54.591126"
+  },
+  {
+    "old_status": "SINDICATO_GENERADO",
+    "new_status": "ENVIADO_A_COMPULSA",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Enviado a compulsa",
+    "timestamp": "2026-06-18T22:02:54.591314"
+  },
+  {
+    "old_status": "ENVIADO_A_COMPULSA",
+    "new_status": "COMPULSADO",
+    "action_user": "Recepción",
+    "action_source": "sistema",
+    "notes": "OK",
+    "timestamp": "2026-06-18T22:02:54.598133"
+  },
+  {
+    "old_status": "COMPULSADO",
+    "new_status": "EN_COMPRAS",
+    "action_user": "Recepción",
+    "action_source": "sistema",
+    "notes": "Enviado a Compras",
+    "timestamp": "2026-06-18T22:02:54.598438"
+  },
+  {
+    "old_status": "EN_COMPRAS",
+    "new_status": "COMPRADO",
+    "action_user": "Compras",
+    "action_source": "sistema",
+    "notes": "Compra realizada — Elizondo",
+    "timestamp": "2026-06-18T22:02:54.604959"
+  },
+  {
+    "old_status": "COMPRADO",
+    "new_status": "NOTIFICADO_VENDEDOR",
+    "action_user": "sistema",
+    "action_source": "sistema",
+    "notes": "✅ <b>Compra realizada</b>\n\n<b>Folio:</b>\n000011\n\n<b>Cliente:</b>\nHistorial Test\n\n<b>Proveedor:</b>\nElizondo\n\n<b>Pedido:</b>\nELZ-TEST-011\n\n<b>Estado:</b>\nCOMPRADO",
+    "timestamp": "2026-06-18T22:02:55.482610"
+  },
+  {
+    "old_status": "NOTIFICADO_VENDEDOR",
+    "new_status": "FINALIZADO",
+    "action_user": "sistema",
+    "action_source": "sistema",
+    "notes": "Proceso finalizado",
+    "timestamp": "2026-06-18T22:02:55.483580"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Test Vendedor",
+    "action_source": "telegram",
+    "notes": "Pedido iniciado desde Telegram",
+    "timestamp": "2026-06-18T21:29:45.201078"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documento Orden de descuento registrado",
+    "timestamp": "2026-06-18T21:29:45.219920"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "CAPTURADO",
+    "action_user": "telegram",
+    "action_source": "telegram",
+    "notes": "Documento Pedido registrado",
+    "timestamp": "2026-06-18T21:29:45.223534"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "telegram",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:29:45.224368"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "EN_REVISION",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Sistemas inició revisión",
+    "timestamp": "2026-06-18T21:29:56.570120"
+  },
+  {
+    "old_status": "EN_REVISION",
+    "new_status": "APROBADO",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Aprobado por Sistemas",
+    "timestamp": "2026-06-18T21:29:56.573873"
+  },
+  {
+    "old_status": "APROBADO",
+    "new_status": "APROBADO",
+    "action_user": "Sistemas",
+    "action_source": "sistema",
+    "notes": "Aprobado por Sistemas",
+    "timestamp": "2026-06-18T21:29:59.396215"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Juan Manuel",
+    "action_source": "sistema",
+    "notes": "Pedido capturado",
+    "timestamp": "2026-06-18T21:34:54.278813"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Juan Manuel",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:34:54.279559"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Demo Seed",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:34:54.280366"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "EN_REVISION",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Sistemas inició revisión",
+    "timestamp": "2026-06-18T21:34:54.282243"
+  },
+  {
+    "old_status": "EN_REVISION",
+    "new_status": "APROBADO",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Aprobado por Sistemas",
+    "timestamp": "2026-06-18T21:34:54.283310"
+  },
+  {
+    "old_status": "APROBADO",
+    "new_status": "AUTORIZACION_GENERADA",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "autorizacion.xlsx generada",
+    "timestamp": "2026-06-18T21:34:56.085629"
+  },
+  {
+    "old_status": "AUTORIZACION_GENERADA",
+    "new_status": "SINDICATO_GENERADO",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "sindicato.xlsx generada",
+    "timestamp": "2026-06-18T21:34:56.085870"
+  },
+  {
+    "old_status": "SINDICATO_GENERADO",
+    "new_status": "ENVIADO_A_COMPULSA",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Enviado a compulsa",
+    "timestamp": "2026-06-18T21:34:56.086092"
+  },
+  {
+    "old_status": "ENVIADO_A_COMPULSA",
+    "new_status": "COMPULSADO",
+    "action_user": "Recepción Demo",
+    "action_source": "sistema",
+    "notes": "Compulsa demo OK",
+    "timestamp": "2026-06-18T21:34:56.086894"
+  },
+  {
+    "old_status": "COMPULSADO",
+    "new_status": "EN_COMPRAS",
+    "action_user": "Recepción Demo",
+    "action_source": "sistema",
+    "notes": "Enviado a Compras",
+    "timestamp": "2026-06-18T21:34:56.087100"
+  }
+]

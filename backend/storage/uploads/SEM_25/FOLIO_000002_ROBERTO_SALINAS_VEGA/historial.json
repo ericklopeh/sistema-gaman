@@ -1,0 +1,42 @@
+[
+  {
+    "old_status": null,
+    "new_status": "CAPTURADO",
+    "action_user": "Leonardo Arévalo",
+    "action_source": "sistema",
+    "notes": "Pedido capturado",
+    "timestamp": "2026-06-18T21:34:52.178295"
+  },
+  {
+    "old_status": "CAPTURADO",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Leonardo Arévalo",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:34:52.179092"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "PENDIENTE_REVISION",
+    "action_user": "Demo Seed",
+    "action_source": "sistema",
+    "notes": "Documentos completos — enviado a Sistemas",
+    "timestamp": "2026-06-18T21:34:52.179972"
+  },
+  {
+    "old_status": "PENDIENTE_REVISION",
+    "new_status": "EN_REVISION",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Sistemas inició revisión",
+    "timestamp": "2026-06-18T21:34:52.181628"
+  },
+  {
+    "old_status": "EN_REVISION",
+    "new_status": "CORRECCION_SOLICITADA",
+    "action_user": "Sistemas Demo",
+    "action_source": "sistema",
+    "notes": "Corregir orden de descuento — demo",
+    "timestamp": "2026-06-18T21:34:52.182816"
+  }
+]
