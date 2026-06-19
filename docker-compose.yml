@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: gaman_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: gaman_db
+      POSTGRES_USER: gaman_user
+      POSTGRES_PASSWORD: gaman_password
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
